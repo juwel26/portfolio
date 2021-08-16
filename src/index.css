@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0; 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +10,67 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.head{
+  font-size: 30px;
+  color: #ff3c00;
+  text-align: center;
+  padding: 20px 0px;
+}
+.pic{
+
+text-align: center;
+
+}
+.pic img{
+  border-radius: 25px;
+  padding: 10px 10px;
+}
+a{
+  text-align: center;
+  padding-bottom: 20px;
+}
+a button{
+  color: wheat;
+  background: green;
+  padding: 10px 20px;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover{
+  color: aliceblue;
+  background: darkorchid;
+}
+.footer{
+  background: darkslategray;
+  height: 100px;
+  width: 100%;
+  color: aliceblue;
+  
+
+}
+
+marquee{
+width:auto;
+padding-top: 20px;
+font-size: 15px;
+  padding: 10px 10px;
+  color: wheat;
+  background: rgb(1, 87, 247);
+  text-transform: capitalize;
+
+}
+.footer p{
+padding: 30px 20px;
+text-align: center;
+
 }
