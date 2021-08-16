@@ -59,7 +59,7 @@ button:hover{
 
 }
 
-marquee{
+/* marquee{
 width:auto;
 padding-top: 20px;
 font-size: 15px;
@@ -68,7 +68,7 @@ font-size: 15px;
   background: rgb(1, 87, 247);
   text-transform: capitalize;
 
-}
+} */
 .footer p{
 padding: 30px 20px;
 text-align: center;

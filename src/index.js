@@ -17,9 +17,9 @@ ReactDOM.render(
   </a>
   <br/>
   <br/>  
-  <marquee className ='scrolloing'> hey! how are you? i hope you are well. so you 
+  {/* <marquee className ='scrolloing'> hey! how are you? i hope you are well. so you 
    need any awsome pic downlode frome here. and conract with me 
-   click on top button. thank you.</marquee>
+   click on top button. thank you.</marquee> */}
 <p></p>
 </div> 
   
