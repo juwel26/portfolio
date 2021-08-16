@@ -1,13 +1,35 @@
 import React from 'react';
-import ReactDOM, { render } from 'react-dom';
+import ReactDOM from 'react-dom';
 import './index.css'
+
+    //  welcome sms 
+    let currntdate = new Date();
+    currntdate = currntdate.getHours(); 
 
 const img = 'https://picsum.photos/200/300';
 const img2 = 'https://picsum.photos/210/300';
 const img3 = 'https://picsum.photos/230/300';
+let getting ='';
+const csss = {};
+
+
+if(currntdate >= 1 && currntdate < 12){
+      getting ='Good Morning'
+      csss.color ='green'
+} else if(currntdate>=12 && currntdate < 19){
+  getting = 'Good Afternoon'
+  csss.color ='#3fc98b'
+}else {
+  getting ='Good Night'
+  csss.color ='#002b36'
+}
+
 ReactDOM.render(
   <>
-  <h1 className='head'>Juwel rana</h1>
+  <div >
+  <h1 >hello sir, <span style = {csss} > { getting}</span> </h1>  
+   </div>        
+
   <div className='pic'>
   <img src={img} alt='randomeimage' />
   <img src={img2} alt='randomeimage' />
@@ -16,11 +38,6 @@ ReactDOM.render(
   <button>contact developer</button>
   </a>
   <br/>
-  <br/>  
-  {/* <marquee className ='scrolloing'> hey! how are you? i hope you are well. so you 
-   need any awsome pic downlode frome here. and conract with me 
-   click on top button. thank you.</marquee> */}
-<p></p>
 </div> 
   
   <br/>

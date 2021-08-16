@@ -18,11 +18,20 @@ code {
 }
 
 
-.head{
+div h1{
   font-size: 30px;
   color: #ff3c00;
-  text-align: center;
   padding: 20px 0px;
+  background: #ffe7c4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ;
+
+}
+div span {
+  padding-left:5px;
 }
 .pic{
 
@@ -31,7 +40,7 @@ text-align: center;
 }
 .pic img{
   border-radius: 25px;
-  padding: 10px 10px;
+  padding: 30px 10px;
 }
 a{
   text-align: center;
@@ -40,8 +49,8 @@ a{
 a button{
   color: wheat;
   background: green;
-  padding: 10px 20px;
-  font-size: 30px;
+  padding: 20px 20px;
+  font-size: 20px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -59,16 +68,8 @@ button:hover{
 
 }
 
-/* marquee{
-width:auto;
-padding-top: 20px;
-font-size: 15px;
-  padding: 10px 10px;
-  color: wheat;
-  background: rgb(1, 87, 247);
-  text-transform: capitalize;
 
-} */
+
 .footer p{
 padding: 30px 20px;
 text-align: center;
