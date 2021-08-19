@@ -25,18 +25,21 @@ if(currntdate >= 1 && currntdate < 12){
 }
 
 ReactDOM.render(
-  <>
+  <> <br/>
   <div >
   <h1 >hello sir, <span style = {csss} > { getting}</span> </h1>  
    </div>        
-
   <div className='pic'>
-  <img src={img} alt='randomeimage' />
-  <img src={img2} alt='randomeimage' />
-  <img src={img3} alt='randomeimage' /> <br/>
-  <a href='http://developerjuwelrana.ezyro.com/' target='_blank'  rel="noreferrer">
+  <img src={img} alt='randomeimage' class='hlw' />
+  <img src={img2} alt='randomeimage' class='hlw' />
+  <img src={img3} alt='randomeimage' class='hlw' /> <br/>
+  <a href='http://developerjuwel.ezyro.com' target='_blank'  rel="noreferrer">
   <button>contact developer</button>
   </a>
+  <p> 
+
+
+  </p>
   <br/>
 </div> 
   
