@@ -72,13 +72,13 @@ button:hover{
 }
 .footer{
   background: darkslategray;
-
+  height: 100px;
   color: rgb(255, 255, 255);
 
 }
 
 .footer p{
-padding: 20px 0px;
+padding-top: 42px;
 text-align: center;
 font-size: 15px;
 

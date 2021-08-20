@@ -30,9 +30,9 @@ ReactDOM.render(
   <h1 >hello sir, <span style = {csss} > { getting}</span> </h1>  
    </div>        
   <div className='pic'>
-  <img src={img} alt='randomeimage' class='hlw' />
-  <img src={img2} alt='randomeimage' class='hlw' />
-  <img src={img3} alt='randomeimage' class='hlw' /> <br/>
+  <img src={img} alt='randomeimage' className='hlw' />
+  <img src={img2} alt='randomeimage' className='hlw' />
+  <img src={img3} alt='randomeimage' className='hlw' /> <br/>
   <a href='http://developerjuwel.ezyro.com' target='_blank'  rel="noreferrer">
   <button>contact developer</button>
   </a>
