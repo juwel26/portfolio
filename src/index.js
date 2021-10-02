@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css'
+import './index.css';
+
 
     //  welcome sms 
     let currntdate = new Date();
@@ -9,6 +10,7 @@ import './index.css'
 const img = 'https://picsum.photos/200/300';
 const img2 = 'https://picsum.photos/210/300';
 const img3 = 'https://picsum.photos/230/300';
+
 let getting ='';
 const csss = {};
 
@@ -36,10 +38,11 @@ ReactDOM.render(
   <a href='http://developerjuwel.ezyro.com' target='_blank'  rel="noreferrer">
   <button>contact developer</button>
   </a>
-  <p> 
+  <br/>
 
 
-  </p>
+
+
   <br/>
 </div> 
   
