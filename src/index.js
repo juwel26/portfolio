@@ -1,18 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+ import './index.css';
+ import {Checkbox} from '@mui/material'
+import {Button} from '@mui/material/';
+
 
 
     //  welcome sms 
     let currntdate = new Date();
     currntdate = currntdate.getHours(); 
 
+    const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 const img = 'https://picsum.photos/200/300';
 const img2 = 'https://picsum.photos/210/300';
 const img3 = 'https://picsum.photos/230/300';
 
 let getting ='';
 const csss = {};
+
+
+
+
 
 
 if(currntdate >= 1 && currntdate < 12){
@@ -40,6 +48,11 @@ ReactDOM.render(
   </a>
   <br/>
 
+  <Button variant="contained">Hello World</Button>
+  <Checkbox {...label} defaultChecked />
+<Checkbox {...label} />
+
+
 
 
 
@@ -53,3 +66,9 @@ ReactDOM.render(
    </>,
   document.getElementById('root')
 );
+
+
+
+
+
+
